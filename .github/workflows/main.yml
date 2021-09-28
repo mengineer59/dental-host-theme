@@ -5,13 +5,9 @@ name: Build
 
 on:
   push:
-    branches-ignore:
-      - master
     branches: 
       - '**'
   pull_request:
-    branches-ignore:
-      - master
     branches:
       - '**'
 
