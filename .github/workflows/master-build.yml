@@ -4,7 +4,7 @@
 name: Master-Deploy
 
 on:
-  push:
+  pull_request:
     branches:
       - 'master'
 
