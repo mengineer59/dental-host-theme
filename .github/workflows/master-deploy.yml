@@ -6,7 +6,7 @@ name: Master-Deploy
 on:
   push:
     branches:
-      - 'master'  # test4
+      - 'master'
 
 jobs:
   build:
