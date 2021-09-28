@@ -1,6 +1,6 @@
 # DentalHostTheme
 
-[![build status](https://github.com/mengineer59/dental-host-theme/workflows/AngularCI/badge.svg)](https://github.com/mengineer59/dental-host-theme/actions)
+![Build Status](https://github.com/mengineer59/dental-host-theme/actions/workflows/main.yml/badge.svg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
