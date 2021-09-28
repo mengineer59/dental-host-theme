@@ -6,10 +6,12 @@ name: Build
 on:
   push:
     branches: 
-      - '**'
+      - '**'      # matches every branch
+      - '!master' # excludes master
   pull_request:
     branches:
-      - '**'
+      - '**'      # matches every branch
+      - '!master' # excludes master
 
 jobs:
   build:
