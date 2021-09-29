@@ -54,9 +54,3 @@ deploy:
       uses: actions/download-artifact@v1
       with:
         name: deploy_dist
-    - name: Deploy to GitHub Pages
-      uses: mengineer59/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.TOKEN_DENTAL_HOST_THEME }}
-        BRANCH: gh-pages
-        FOLDER: deploy_dist
