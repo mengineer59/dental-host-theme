@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "build:ci": "ng build --prod --base-href \"https://mengineer59.github.io/dental-host-theme/\"",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
