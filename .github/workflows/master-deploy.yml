@@ -55,13 +55,13 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: deploy_dist
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_DENTAL_HOST_THEME }}
-          BASE_BRANCH: master # The branch the action should deploy from.
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: deploy_dist
+      - name: Prepare and deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install
+          ng build --prod --base-href "https://mengineer59.github.io/dental-host-theme/"
+          npx angular-cli-ghpages --dir=dist/dental-host-theme
 
 # DEPLOY MANUEL STEPS
 # ng build --prod --base-href "https://mengineer59.github.io/dental-host-theme/"
