@@ -7,7 +7,7 @@ import * as $ from 'jquery';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = '2dental-host-theme';
+  title = 'dental-host-theme';
   ngOnInit(){
     $(document).ready(function(){
       //alert("Ready!");              
