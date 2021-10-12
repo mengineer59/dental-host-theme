@@ -1,0 +1,83 @@
+.header-bar{
+    margin-top: 0;
+    border-radius: 1px;
+    box-shadow: 0 1px 3px #ddd;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 29px 15px;
+}
+.logo .ng-fa-icon{
+    color: #5bcc9f;
+    font-size: 3.4em;
+}
+.logo .head{
+    position: relative;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.logo .head .bold{
+    color: #5bcc9f;
+}
+.logo .head .thin{
+    color: #9fe1c7;
+    display: block;
+    margin-top: -5px;
+}
+.info{
+    text-align: right;
+}
+.info .item{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    padding: 0px 15px 0px 10px;
+}
+.info .item .ng-fa-icon{
+    color: #5bcc9f;
+    font-size: 1.9em;
+    display: inline-flex;
+}
+.info .item .block-line{
+    border-right: 0.1px solid #ccc;
+    display: inline-flex;
+    height: 25px;
+    margin: 0px 18px;
+}
+.info .item .title{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.info .item .title .bold{
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 14px;
+}
+.info .item .title .thin{
+    display: block;
+    margin-top: -2px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px){
+    .logo{
+        text-align: center;
+    }
+    .info{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .info .item .block-line{
+        border-right: 0px solid #ccc;
+        margin: 0px 5px;
+    }
+    .info .item{
+        padding: 8px 18px 8px 0px;
+    }
+}
