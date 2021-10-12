@@ -1,0 +1,7 @@
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/dental-background.png");
+    background-repeat: repeat;
+}

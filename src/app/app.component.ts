@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { NavbarComponent } from './navbar/navbar.component';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +10,7 @@ import * as $ from 'jquery';
 })
 export class AppComponent implements OnInit {
   title = 'dental-host-theme';
-  ngOnInit(){
+  ngOnInit(){    
     $(document).ready(function(){
       //alert("Ready!");              
     });

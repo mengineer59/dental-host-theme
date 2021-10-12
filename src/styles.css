@@ -1,3 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~font-awesome/css/font-awesome.min.css";
+
+body{
+    font-family: "Open Sans";
+    text-transform: none;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #777;
+    font-size: 14px;
+}
