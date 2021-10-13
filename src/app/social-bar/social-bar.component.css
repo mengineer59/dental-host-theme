@@ -1,0 +1,9 @@
+.social-bar {
+    line-height: 40px;
+}
+.social-bar a{
+    margin: 0 10px;
+}
+.social-bar .ng-fa-icon{
+    font-size: 14px;
+}

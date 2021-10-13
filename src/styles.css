@@ -10,3 +10,19 @@ body{
     color: #777;
     font-size: 14px;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all .45s ease-in-out;
+    -moz-transition: all .45s ease-in-out;
+    -o-transition: all .45s ease-in-out;
+    transition: all .45s ease-in-out;
+}
+a:hover {
+    color: #5bcc9f;
+}
+a:focus {
+    outline: 0;
+    box-shadow: none;
+    color: inherit;
+}
