@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
+import { OwlModule } from 'ngx-owl-carousel'; 
 
 //Components
 import { AppComponent } from './app.component';
@@ -14,19 +15,22 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { faCoffee, fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { CarouselBarComponent } from './carousel-bar/carousel-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeaderBarComponent,
-    SocialBarComponent
+    SocialBarComponent,
+    CarouselBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    CommonModule
+    CommonModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

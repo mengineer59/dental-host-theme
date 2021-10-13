@@ -1,0 +1,15 @@
+<div class="social-bar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <owl-carousel [options]="slideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding']" >  
+                    <div class="item" *ngFor="let img of images">  
+                        <div style="align-content: center">  
+                            <img style="height: 260px;width:100%"src={{img}}/>  
+                        </div>  
+                    </div>  
+                </owl-carousel> 
+            </div>
+        </div>
+    </div>
+</div>

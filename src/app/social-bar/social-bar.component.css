@@ -2,8 +2,20 @@
     line-height: 40px;
 }
 .social-bar a{
-    margin: 0 10px;
+    margin-left: 20px;
 }
 .social-bar .ng-fa-icon{
     font-size: 14px;
+}
+.icons{
+    text-align: right;
+}
+@media (max-width: 991px){
+    .social-bar {
+        line-height: 24px;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
 }
