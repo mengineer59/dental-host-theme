@@ -71,10 +71,13 @@
         padding: 20px 0;
     }
     .info .item .block-line{
-        border-right: 0px solid #ccc;
-        margin: 0px 5px;
+        display: none;
     }
     .info .item{
         padding: 8px 18px 8px 0px;
+    }
+    .info .item .ng-fa-icon{
+        font-size: 22px;
+        width: 30px;
     }
 }
