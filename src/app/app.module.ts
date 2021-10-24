@@ -19,6 +19,7 @@ import { CarouselBarComponent } from './carousel-bar/carousel-bar.component';
 import { OurServicesBarComponent } from './our-services-bar/our-services-bar.component';
 import { IntroductionBarComponent } from './introduction-bar/introduction-bar.component';
 import { TitleBarComponent } from './title-bar/title-bar.component';
+import { GalleryBarComponent } from './gallery-bar/gallery-bar.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { TitleBarComponent } from './title-bar/title-bar.component';
     CarouselBarComponent,
     OurServicesBarComponent,
     IntroductionBarComponent,
-    TitleBarComponent
+    TitleBarComponent,
+    GalleryBarComponent
   ],
   imports: [
     BrowserModule,
