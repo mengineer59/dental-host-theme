@@ -16,6 +16,8 @@ import { faCoffee, fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { CarouselBarComponent } from './carousel-bar/carousel-bar.component';
+import { OurServicesBarComponent } from './our-services-bar/our-services-bar.component';
+import { IntroductionBarComponent } from './introduction-bar/introduction-bar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CarouselBarComponent } from './carousel-bar/carousel-bar.component';
     NavbarComponent,
     HeaderBarComponent,
     SocialBarComponent,
-    CarouselBarComponent
+    CarouselBarComponent,
+    OurServicesBarComponent,
+    IntroductionBarComponent
   ],
   imports: [
     BrowserModule,
