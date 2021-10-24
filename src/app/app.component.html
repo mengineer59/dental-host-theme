@@ -2,38 +2,30 @@
   <header class="main-header">
     <div class="row">
       <app-social-bar></app-social-bar>
+      <div class="col-xs-12">
+        <app-header-bar></app-header-bar>
+        <app-navbar></app-navbar>
+      </div>
     </div>
-    <app-header-bar></app-header-bar>
-    <app-navbar></app-navbar>
   </header>
   <div class="main-section">
     <div class="row">
-      <div class="main-content col-xs-12">
-        
-        <div class="section">
-          <div class="s-wrapper no-padding">
-            <div class="s-content clearfix">
-              <app-carousel-bar></app-carousel-bar>
-            </div>
+      <div class="col-xs-12">
+        <div class="main-content">
+
+          <div class="section-box">
+            <app-carousel-bar></app-carousel-bar>
           </div>
-        </div>
-        
-        <div class="section-row row">
-          <div class="r-wrapper">
-            <div class="r-content clearfix">
-              <app-introduction-bar></app-introduction-bar>
-            </div>
+          <div class="section-unbox">
+            <app-introduction-bar></app-introduction-bar>
           </div>
-        </div>
-        
-        <div class="section">
-          <div class="s-wrapper">
-            <div class="s-content clearfix">
+          <div class="section-box">
+            <div class="sb-content">
               <app-our-services-bar></app-our-services-bar>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>

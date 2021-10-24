@@ -1,34 +1,12 @@
-.section{
+.section-box{
     border-radius: 1px;
     box-shadow: 0 1px 3px #ddd;
     background-color: #fff;
+    margin-bottom: 20px;
 }
-.section .s-wrapper{
-    position: relative;
+.section-box .sb-content{
     padding: 30px;
+}
+.section-unbox{
     margin-bottom: 20px;
 }
-.section-row .s-wrapper .s-content{
-    position: relative;
-    padding-left: 0;
-    padding-right: 0;
-}
-.no-padding {
-    padding: 0!important;
-}
-.section-row .r-wrapper{
-    position: relative;
-    margin-bottom: 20px;
-}
-.section-row .r-wrapper .r-content{
-    padding-left: 0;
-    padding-right: 0;
-    width: auto!important;
-    max-width: 100%!important;
-}
-
-
-
-
-
-
