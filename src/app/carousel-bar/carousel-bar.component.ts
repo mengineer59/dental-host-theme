@@ -14,6 +14,8 @@ export class CarouselBarComponent implements OnInit {
   ];    
   slideOptions = { 
     items: 1, 
+    loop: true,
+    autoplay:true,
     dots: true, 
     nav: false
   };

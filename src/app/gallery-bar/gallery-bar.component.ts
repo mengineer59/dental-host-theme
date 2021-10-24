@@ -17,8 +17,24 @@ export class GalleryBarComponent implements OnInit {
   ];    
   slideOptions = { 
     items: 4,
+    loop: true,
+    autoplay: true,
     dots: true, 
-    nav: false
+    nav: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 4
+      }
+    }
   };
 
   constructor() { }
