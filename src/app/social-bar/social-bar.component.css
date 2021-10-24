@@ -1,17 +1,17 @@
-.social-bar {
+.bar {
     line-height: 40px;
 }
-.social-bar a{
+a{
     margin-left: 20px;
 }
-.social-bar .ng-fa-icon{
+.ng-fa-icon{
     font-size: 14px;
 }
 .icons{
     text-align: right;
 }
 @media (max-width: 991px){
-    .social-bar {
+    .bar {
         line-height: 24px;
         text-align: center;
     }

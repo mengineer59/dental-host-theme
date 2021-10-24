@@ -2,6 +2,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body{
+    background-image: url("./assets/images/dental-background.png");
+    background-repeat: repeat;
     font-family: "Open Sans";
     text-transform: none;
     line-height: 24px;

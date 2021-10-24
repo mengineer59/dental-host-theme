@@ -1,9 +1,8 @@
-.header-bar{
+.bar{
     background-color: #fff;
     padding: 29px 15px;
     border-radius: 1px;
     box-shadow: 0 1px 3px #ddd;
-    background-color: #fff;
 }
 .logo .ng-fa-icon{
     color: #5bcc9f;

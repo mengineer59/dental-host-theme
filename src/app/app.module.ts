@@ -18,6 +18,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { CarouselBarComponent } from './carousel-bar/carousel-bar.component';
 import { OurServicesBarComponent } from './our-services-bar/our-services-bar.component';
 import { IntroductionBarComponent } from './introduction-bar/introduction-bar.component';
+import { TitleBarComponent } from './title-bar/title-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { IntroductionBarComponent } from './introduction-bar/introduction-bar.co
     SocialBarComponent,
     CarouselBarComponent,
     OurServicesBarComponent,
-    IntroductionBarComponent
+    IntroductionBarComponent,
+    TitleBarComponent
   ],
   imports: [
     BrowserModule,
