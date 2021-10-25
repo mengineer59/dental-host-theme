@@ -20,6 +20,7 @@ import { OurServicesBarComponent } from './our-services-bar/our-services-bar.com
 import { IntroductionBarComponent } from './introduction-bar/introduction-bar.component';
 import { TitleBarComponent } from './title-bar/title-bar.component';
 import { GalleryBarComponent } from './gallery-bar/gallery-bar.component';
+import { OurTeamComponent } from './our-team/our-team.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GalleryBarComponent } from './gallery-bar/gallery-bar.component';
     OurServicesBarComponent,
     IntroductionBarComponent,
     TitleBarComponent,
-    GalleryBarComponent
+    GalleryBarComponent,
+    OurTeamComponent
   ],
   imports: [
     BrowserModule,
