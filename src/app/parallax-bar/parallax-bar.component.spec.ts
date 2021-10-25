@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OurTeamComponent } from './our-team.component';
+import { ParallaxBarComponent } from './parallax-bar.component';
 
-describe('OurTeamComponent', () => {
-  let component: OurTeamComponent;
-  let fixture: ComponentFixture<OurTeamComponent>;
+describe('ParallaxBarComponent', () => {
+  let component: ParallaxBarComponent;
+  let fixture: ComponentFixture<ParallaxBarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OurTeamComponent ]
+      declarations: [ ParallaxBarComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OurTeamComponent);
+    fixture = TestBed.createComponent(ParallaxBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
