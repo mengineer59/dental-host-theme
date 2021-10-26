@@ -1,7 +1,60 @@
-<div class="wrapper">
-  <div class="container">
-    <app-header-bar></app-header-bar>
-    <app-navbar></app-navbar>
+<div class="container">
+  <header class="main-header">
+    <div class="row">
+      <app-social-bar></app-social-bar>
+      <div class="col-xs-12">
+        <app-header-bar></app-header-bar>
+        <app-navbar></app-navbar>
+      </div>
+    </div>
+  </header>
+  <div class="main-section">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="main-content">
+
+          <div class="section-box">
+            <app-carousel-bar></app-carousel-bar>
+          </div>
+          <div class="section-unbox">
+            <app-introduction-bar></app-introduction-bar>
+          </div>
+          <div class="section-box">
+            <div class="sb-content">
+              <app-our-services-bar></app-our-services-bar>
+            </div>
+          </div>
+          <div class="section-box">
+            <div class="sb-content">
+              <app-gallery-bar></app-gallery-bar>
+            </div>
+          </div>
+          <div class="section-box">
+            <div class="sb-content pb-1">
+              <app-title-bar 
+                [header]="'Our Team'"
+                [subHeader]="'WE LOOK FORWARD TO CARING FOR YOUR SMILE!'">
+              </app-title-bar>
+            </div>
+          </div>
+          <div class="section-unbox">
+            <app-our-team-bar></app-our-team-bar>
+          </div>
+          <div class="section-box">
+            <app-parallax-bar></app-parallax-bar>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
+  <footer class="main-footer">
+    <div class="row">
+      <div class="col-xs-12">
+        <app-footer-bar></app-footer-bar>
+      </div>
+      <app-copyright-bar></app-copyright-bar>
+    </div>
+  </footer>
 </div>
 <router-outlet></router-outlet>
