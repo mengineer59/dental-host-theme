@@ -59,6 +59,27 @@
     background-color: #f1f1f1;
     color: #5bcc9f;
 }
+.footer-1 .social-icon{
+    margin-top: 20px;
+}
+.footer-1 .social-icon .item{
+    display: inline-block;
+    margin: 0 7px 0 0;
+}
+.footer-1 .social-icon a{
+    background-color: #5bcc9f;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+}
 
 .footer-2 .list-icon{
     list-style: none;
