@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class GalleryBarComponent implements OnInit {
 
   images = [
-    '../assets/images/16-min.png', 
-    '../assets/images/31-min.png', 
-    '../assets/images/33-min.png', 
-    '../assets/images/19-min.png', 
-    '../assets/images/34-min.png', 
-    '../assets/images/24-min.png'
+    './assets/images/16-min.png', 
+    './assets/images/31-min.png', 
+    './assets/images/33-min.png', 
+    './assets/images/19-min.png', 
+    './assets/images/34-min.png', 
+    './assets/images/24-min.png'
   ];    
   slideOptions = { 
     items: 4,
