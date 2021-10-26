@@ -1,21 +1,25 @@
-<div class="bar row">
-    <div class="col-xs-12">
-        <app-title-bar 
-            [header]="'Our Gallery'"
-            [subHeader]="'WE LOOK FORWARD TO CARING FOR YOUR SMILE!'">
-        </app-title-bar>
+<div class="bar">
+    <div class="row">
+        <div class="col-xs-12">
+            <app-title-bar 
+                [header]="'Our Gallery'"
+                [subHeader]="'WE LOOK FORWARD TO CARING FOR YOUR SMILE!'">
+            </app-title-bar>
+        </div>
     </div>
 </div>
-<div class="bar row">
-    <div class="col-xs-12">
-        <div class="gallery">
-            <owl-carousel [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']" >  
-                <div class="item" *ngFor="let img of images">  
-                    <div class="slider">  
-                        <img src={{img}}/>  
+<div class="bar">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="gallery">
+                <owl-carousel [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']" >  
+                    <div class="item" *ngFor="let img of images">  
+                        <div class="slider">  
+                            <img src={{img}}/>  
+                        </div>  
                     </div>  
-                </div>  
-            </owl-carousel>
+                </owl-carousel>
+            </div>
         </div>
     </div>
 </div>
