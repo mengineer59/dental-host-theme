@@ -22,6 +22,7 @@ import { TitleBarComponent } from './title-bar/title-bar.component';
 import { GalleryBarComponent } from './gallery-bar/gallery-bar.component';
 import { ParallaxBarComponent } from './parallax-bar/parallax-bar.component';
 import { OurTeamBarComponent } from './our-team-bar/our-team-bar.component';
+import { FooterBarComponent } from './footer-bar/footer-bar.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { OurTeamBarComponent } from './our-team-bar/our-team-bar.component';
     TitleBarComponent,
     GalleryBarComponent,
     ParallaxBarComponent,
-    OurTeamBarComponent
+    OurTeamBarComponent,
+    FooterBarComponent
   ],
   imports: [
     BrowserModule,
