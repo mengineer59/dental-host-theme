@@ -1,7 +1,7 @@
 .parallax{
     position: relative;
     /* The image used */
-    background-image: url("../../assets/images/parallax-3-min.jpg");
+    background-image: url("../../assets/images/parallax-3-min.png");
   
     /* Set a specific height */
     min-height: 143px;
