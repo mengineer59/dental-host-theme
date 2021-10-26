@@ -1,0 +1,38 @@
+.box{
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.box .image{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    background-color: #f9f9f9;
+}
+.box .image img{
+    display: block;
+    width: 100%;
+    border-radius: 1px;
+    transform: translateZ(0);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.box .image:hover img {
+    /*cursor: pointer;*/
+    opacity: .7;
+    transform: translateZ(0) scale(1.05);
+}
+.box .title{
+    color: #5bcc9f;
+    margin: 0;
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box .desc{
+    margin-top: 15px;
+}

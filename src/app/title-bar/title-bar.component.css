@@ -1,0 +1,31 @@
+.head-content{
+    border-left: 2px solid #5bcc9f;
+    padding: 1px 0 1px 10px;
+    text-align: left;
+    position: relative;
+    margin: 0 0 30px;
+}
+.head{
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+    text-transform: none;
+    font-weight: 500;
+    position: relative;
+    margin: 0;
+}
+.sub-head{
+    margin-top: 3px;
+}
+.sub-head p{
+    font-family: Ubuntu;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0;
+    color: #414141;
+}

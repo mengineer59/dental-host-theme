@@ -1,0 +1,21 @@
+.bar {
+    line-height: 40px;
+}
+a{
+    margin-left: 20px;
+}
+.ng-fa-icon{
+    font-size: 14px;
+}
+.icons{
+    text-align: right;
+}
+@media (max-width: 991px){
+    .bar {
+        line-height: 24px;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
+}

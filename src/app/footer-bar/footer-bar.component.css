@@ -1,0 +1,129 @@
+.bar{
+    position: relative;
+    border-radius: 1px;
+    padding: 30px 15px 0px;
+    box-shadow: 0 1px 3px #ddd;
+    background-color: #fff;
+    font-size: 14px;
+}
+.widget{
+    margin-bottom: 25px;
+}
+.title{
+    font-family: Ubuntu;
+    border-left: 2px solid #5bcc9f;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #414141;
+    line-height: 26px;
+    padding: 2px 0 0 10px;
+    margin: 5px 0 25px;
+}
+
+.footer-1 .logo{
+    margin-bottom: 15px;
+}
+.footer-1 .logo .ng-fa-icon{
+    color: #5bcc9f;
+    font-size: 2.8em;
+}
+.footer-1 .logo .head{
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.footer-1 .logo .head .bold{
+    color: #5bcc9f;
+}
+.footer-1 .logo .head .thin{
+    color: #9fe1c7;
+    display: block;
+    margin-top: -5px;
+}
+.footer-1 .mt-25{
+    margin-top: 25px;
+}
+.footer-1 .info-item{
+    margin-bottom: 10px;
+}
+.footer-1 .info-item .ng-fa-icon{
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 1px 5px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    color: #5bcc9f;
+}
+.footer-1 .social-icon{
+    margin-top: 20px;
+}
+.footer-1 .social-icon .item{
+    display: inline-block;
+    margin: 0 7px 0 0;
+}
+.footer-1 .social-icon a{
+    background-color: #5bcc9f;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.footer-2 .list-icon{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 1.75;
+}
+.footer-2 .list-icon li{
+   line-height: 1.95;
+}
+.footer-2 .ng-fa-icon{
+    font-size: .9em;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+    color: #5bcc9f;
+}
+
+.footer-3 .wh-item{
+    font-size: 0;
+    line-height: normal;
+    padding: 6px 0 5px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.footer-3 .wh-item:first-child{
+    padding-top: 0;
+}
+.footer-3 .wh-item.active{
+    color: #5bcc9f;
+}
+.footer-3 .wh-day{
+    display: inline-block;
+    width: 60%;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-3 .wh-hour{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    width: 40%;
+    text-align: right;
+    padding-right: 0;
+}
