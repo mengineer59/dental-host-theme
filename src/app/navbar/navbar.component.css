@@ -1,3 +1,6 @@
+.bar{
+    min-height: 82px;
+}
 .navbar-nav{
     font-family: Ubuntu;
     text-transform: uppercase;
