@@ -22,6 +22,8 @@ a {
     -moz-transition: all .45s ease-in-out;
     -o-transition: all .45s ease-in-out;
     transition: all .45s ease-in-out;
+    background-image:none;
+    /*test-denemesi-test-denemesi*/
 }
 a:hover {
     color: #5bcc9f;
