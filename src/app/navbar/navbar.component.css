@@ -1,6 +1,12 @@
 .bar{
     min-height: 82px;
 }
+.navbar{
+    padding: 12px 0px;
+}
+.nav-item{
+
+}
 /*
 .navbar-nav{
     font-family: Ubuntu;
