@@ -1,7 +1,9 @@
 .bar{
     min-height: 82px;
 }
-
+.navbar{
+    display: -webkit-box;
+}
 /*
 .navbar-nav{
     font-family: Ubuntu;
