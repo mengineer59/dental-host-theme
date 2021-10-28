@@ -1,8 +1,5 @@
-.bar{
-    min-height: 82px;
-}
-.navbar{
-    display: -webkit-box;
+.nav-item{
+    margin:0px 10px;
 }
 /*
 .navbar-nav{
