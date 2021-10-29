@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  toggleCollapse:string = "block";
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }
 
+  onToggleCollapse(){
+    this.toggleCollapse = (this.toggleCollapse == "block" ? "none" : "block");
+  }
 }
