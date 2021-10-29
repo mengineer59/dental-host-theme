@@ -34,7 +34,6 @@
 .btn-toggler{
     display: none;
     float: right;
-    font-size: 22px;
 }
 
 @media (max-width: 767px){
@@ -43,5 +42,10 @@
     }
     .menu-item{
         display: none;
+    }
+}
+@media (min-width: 768px){
+    .content-toggler{
+        display: none!important;
     }
 }
