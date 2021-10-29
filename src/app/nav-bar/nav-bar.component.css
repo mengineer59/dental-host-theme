@@ -36,7 +36,10 @@
     float: right;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
+    .bar{
+        padding: 10px 20px;
+    }
     .btn-toggler{
         display: inherit;
     }
@@ -44,7 +47,7 @@
         display: none;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 992px){
     .content-toggler{
         display: none!important;
     }
