@@ -35,8 +35,11 @@ a:focus {
     text-decoration: none;
 }
 .btn-theme{
-    color: #5bcc9f;
-    padding: 0px 5px;
+    padding: 0px 0px;
+    border: none;
+    outline: none;
+    color: #50b0e3;
+    background-color: transparent;
 }
 .btn-theme:hover{
     color: #5bcc9f;
