@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselBarComponent implements OnInit {
 
   images = [
-    './assets/images/test1.jpg', 
-    './assets/images/test2.jpg', 
-    './assets/images/test3.jpg'
+    './assets/images/carousel1.webp', 
+    './assets/images/carousel2.webp', 
+    './assets/images/carousel3.webp'
   ];    
   slideOptions = { 
     items: 1, 
