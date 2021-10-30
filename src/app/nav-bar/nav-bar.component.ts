@@ -19,4 +19,7 @@ export class NavBarComponent implements OnInit {
   onToggleCollapse(){
     this.toggleCollapse = (this.toggleCollapse == "block" ? "none" : "block");
   }
+  onCloseCollapse(){
+    this.toggleCollapse="none";
+  }
 }

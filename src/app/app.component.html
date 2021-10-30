@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="home">
   <header class="main-header">
     <div class="row">
       <div class="col-12">
@@ -19,17 +19,22 @@
           <div class="section-unbox">
             <app-introduction-bar></app-introduction-bar>
           </div>
-          <div class="section-box">
+          <div class="section-box" id="about-us">
+            <div class="sb-content">
+              <app-about-us-bar></app-about-us-bar>
+            </div>
+          </div>
+          <div class="section-box" id="services">
             <div class="sb-content">
               <app-our-services-bar></app-our-services-bar>
             </div>
           </div>
-          <div class="section-box">
+          <div class="section-box" id="gallery">
             <div class="sb-content">
               <app-gallery-bar></app-gallery-bar>
             </div>
           </div>
-          <div class="section-box">
+          <div class="section-box" id="teams">
             <div class="sb-content pb-1">
               <app-title-bar 
                 [header]="'Our Team'"
@@ -37,7 +42,7 @@
               </app-title-bar>
             </div>
           </div>
-          <div class="section-unbox">
+          <div class="section-unbox" id="team">
             <app-our-team-bar></app-our-team-bar>
           </div>
           <div class="section-box">

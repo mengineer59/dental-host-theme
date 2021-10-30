@@ -24,6 +24,7 @@ import { OurTeamBarComponent } from './our-team-bar/our-team-bar.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { CopyrightBarComponent } from './copyright-bar/copyright-bar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AboutUsBarComponent } from './about-us-bar/about-us-bar.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     OurTeamBarComponent,
     FooterBarComponent,
     CopyrightBarComponent,
-    NavBarComponent
+    NavBarComponent,
+    AboutUsBarComponent
   ],
   imports: [
     BrowserModule,
