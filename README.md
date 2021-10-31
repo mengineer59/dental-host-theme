@@ -4,6 +4,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
+This project is a powerful and very flexible dentist theme. This project made especially for individual dentists, dental clinics. Responsive modern design. You can [visit](https://mengineer59.github.io/dental-host-theme/) site. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

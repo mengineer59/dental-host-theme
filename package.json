@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:ci": "ng build --prod --base-href \"https://mengineer59.github.io/dental-host-theme/\"",
-    "test:ci": "ng test --watch=false --browsers=ChromeHeadless"
+    "build:ci": "ng build --prod --sourceMap=false --base-href \"https://mengineer59.github.io/dental-host-theme/\"",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage --source-map true"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@types/jquery": "^3.5.6",
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^4.6.0",
     "jquery": "3.3.1",
     "ngx-owl-carousel": "^2.0.7",
     "ngx-owl-carousel-o": "^6.0.0",

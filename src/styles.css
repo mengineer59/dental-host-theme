@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+/*
 @import '~bootstrap/dist/css/bootstrap.min.css';
+*/
 
 body{
     background-image: url("./assets/images/dental-background.png");
@@ -20,12 +22,28 @@ a {
     -moz-transition: all .45s ease-in-out;
     -o-transition: all .45s ease-in-out;
     transition: all .45s ease-in-out;
+    background-image:none;
 }
 a:hover {
     color: #5bcc9f;
+    text-decoration: none;
 }
 a:focus {
     outline: 0;
     box-shadow: none;
     color: inherit;
+    text-decoration: none;
+}
+.btn-theme{
+    padding: 0px 0px;
+    border: none;
+    outline: none;
+    color: #50b0e3;
+    background-color: transparent;
+}
+.btn-theme:hover{
+    color: #5bcc9f;
+}
+.btn-theme:focus{
+    color: #5bcc9f;
 }

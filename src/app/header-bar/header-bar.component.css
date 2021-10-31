@@ -1,6 +1,6 @@
 .bar{
     background-color: #fff;
-    padding: 29px 15px;
+    padding: 29px 20px;
     border-radius: 1px;
     box-shadow: 0 1px 3px #ddd;
 }
@@ -63,18 +63,21 @@
 }
 
 @media (max-width: 991px){
+    .bar{
+        padding: 15px 10px;
+    }
     .logo{
         text-align: center;
     }
     .info{
         text-align: center;
-        padding: 20px 0;
+        padding: 10px 0px 0px 0px;
     }
     .info .item .block-line{
         display: none;
     }
     .info .item{
-        padding: 8px 18px 8px 0px;
+        padding: 8px 15px 8px 0px;
     }
     .info .item .ng-fa-icon{
         font-size: 22px;

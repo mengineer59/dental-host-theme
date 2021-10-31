@@ -1,7 +1,7 @@
 .parallax{
     position: relative;
     /* The image used */
-    background-image: url("../../assets/images/parallax-3-min.jpg");
+    background-image: url("../../assets/images/parallax-3-min.webp");
   
     /* Set a specific height */
     min-height: 143px;
@@ -41,5 +41,5 @@
     padding: 20px 0px;
 }
 .parallax-row{
-    padding: 30px 0px;
+    padding: 30px 15px;
 }

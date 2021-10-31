@@ -1,0 +1,21 @@
+<div class="bar">
+    <div class="row">
+      <div class="col-12">
+        <a href="#home" class="menu-item">HOME</a>
+        <a href="#about-us" class="menu-item">ABOUT US</a>
+        <a href="#services" class="menu-item">SERVICES</a>
+        <a href="#gallery" class="menu-item">GALLERY</a>
+        <a href="#teams" class="menu-item">TEAMS</a>
+        <button class="btn-theme btn-toggler" (click)="onToggleCollapse()">
+          <fa-icon [icon]="['fas','bars']"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="content-toggler" [ngStyle]="{'display':toggleCollapse}">
+    <div class="toggle-menu-item"><a href="#home" (click)="onCloseCollapse()">HOME</a></div>
+    <div class="toggle-menu-item"><a href="#about-us" (click)="onCloseCollapse()">ABOUT US</a></div>
+    <div class="toggle-menu-item"><a href="#services" (click)="onCloseCollapse()">SERVICES</a></div>
+    <div class="toggle-menu-item"><a href="#gallery" (click)="onCloseCollapse()">GALLERY</a></div>
+    <div class="toggle-menu-item"><a href="#teams" (click)="onCloseCollapse()">TEAMS</a></div>
+  </div>
