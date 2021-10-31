@@ -38,13 +38,12 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN_DENTAL_HOST_THEME }}
         BRANCH: gh-pages
         FOLDER: dist/dental-host-theme
-
-#    - name: Archive code coverage result
-#      if: success()
-#      uses: actions/upload-artifact@v1
-#      with:
-#        name: deploy_coverage
-#        path: coverage
+    - name: Archive code coverage result
+      if: success()
+      uses: actions/upload-artifact@v1
+      with:
+        name: deploy_coverage
+        path: coverage
 
 # DEPLOY MANUEL STEPS
 # ng build --prod --base-href "https://mengineer59.github.io/dental-host-theme/"
